@@ -26,6 +26,8 @@ class Convert //Instancing the class "Convert"
             new int[,] {{4, 2, 7, 1}, {20, 70, 40, 90}, {1, 2, 0}};
         };
 
-        
+        for (int i = 0; i < NewArray.Length; i++) //The method for passing through each array
+        {
+            let BigArray = new arr[i,0];
     }
 };
