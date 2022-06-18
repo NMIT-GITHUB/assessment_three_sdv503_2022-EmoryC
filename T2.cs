@@ -36,5 +36,12 @@ class Convert //Instancing the class "Convert"
                 {
                     MaxArray[i,j] = BigArray[i][j]; //Creating a new array equal to the array of max values from the function
                 };
+            };
+        };
+            Console.WriteLine(MaxArray[i,j]); //Telling the compiler to produce the values of MaxArray 
+               /*
+               This was the only place where the code didn't hate the Console.WriteLine
+               method so I presume it is correct for now...
+               */
     }
 }
