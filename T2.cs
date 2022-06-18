@@ -29,5 +29,12 @@ class Convert //Instancing the class "Convert"
         for (int i = 0; i < NewArray.Length; i++) //The method for passing through each array
         {
             let BigArray = new arr[i,0];
+
+            for (int j = 0; j < NewArray[i].Lenght; j++) //The method for passing through each value of each array
+            {
+                if(BigArray[i,j] > BigArray[i, 0]) //The method for finding the max value within each array
+                {
+                    MaxArray[i,j] = BigArray[i][j]; //Creating a new array equal to the array of max values from the function
+                };
     }
-};
+}
