@@ -21,17 +21,57 @@ namespace Calculator
  
         public int Sum (double x, double y)
         {
+            
+            Console.backgroundColour = ConsoleColor.DarkGreen;
+            Console.foregroundColour = ConsoleColor.Black;
             return x + y;
+            
         }
     
         public int Sub (double x, double y)
         {
+
+            Console.backgroundColour = ConsoleColor.DarkRed;
+            Console.foregroundColour = ConsoleColor.Black;
             return x - y;
+
         }
        
         public int Multi (double x, double y)
         {
+
+            Console.backgroundColour = ConsoleColor.Magenta;
+            Console.foregroundColour = ConsoleColor.Black;
             return x * y;
+
+        }
+
+        public int Dev (double x, double y)
+        {
+
+            Console.backgroundColour = ConsoleColor.Blue;
+            Console.foregroundColour = ConsoleColor.Black;
+            return x / y;
+
         }
     
-}
+        public int Pow (double x, double y)
+        {
+
+            Console.backgroundColour = ConsoleColor.Cyan;
+            Console.foregroundColour = ConsoleColor.Black;
+            return x ^ y;
+
+        }
+
+        public int Rem (double x, double y)
+        {
+
+            Console.backgroundColour = ConsoleColor.DarkGray;
+            Console.foregroundColour = ConsoleColor.Black;
+            return x % y;
+
+        }
+
+
+    }
