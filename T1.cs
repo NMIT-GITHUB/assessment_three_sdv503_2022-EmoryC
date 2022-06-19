@@ -14,7 +14,7 @@ namespace Calculator        // The container for the proceeding classes
 {
     class CalcMath          // Class #1
     {
-        static void Main(string[] args)                 // First Operator, just a string to start out the process
+        static void Main(string[] args)                 // First Operator or Class Method, just a string to start out the process
         {
         Console.Writeline("Feed Me Your Maths");
         }
@@ -26,7 +26,8 @@ namespace Calculator        // The container for the proceeding classes
             Console.foregroundColour = ConsoleColor.Black;          //Decided to keep the forground colour the same
             return x + y;                                           //The return expected of the operator
             Console.Writeline(Sum);                                 //The console method to return the answer of the operator
-        }
+        }                                                           //Given that the assignment only requires to combination of TWO variables,
+                                                                    // I'm not sure how much more this needs to be fleshed out
     
         public int Sub (double x, double y)             // Third for Subtraction
         {
@@ -77,6 +78,15 @@ namespace Calculator        // The container for the proceeding classes
             return x % y;
             Console.Writeline(Rem);
 
+        }
+
+    }
+
+    class PemDas
+    {
+        static int Pem(string[] args)
+        {
+            
         }
 
     }
