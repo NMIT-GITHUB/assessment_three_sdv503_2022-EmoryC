@@ -8,16 +8,33 @@ Not using Studio bc it is new, confuses me, and I find it unecessary since I'm s
 That beind said I never had node.js installed on this system so there will be no testing, just praying
 */
 
-class Calculator
+using System;
+
+namespace Calculator
 {
-
-    static void Int()
+    class CalcMath
     {
-
-        
+        static void Main(string[] args)
+        {
+        Console.Writeline("Feed Me Your Maths");
+        }
+ 
     }
 
+    class Summation
+    {
+        public int Sum (double x, double y)
+        {
+            return x + y;
+        }
+    }
 
+    class Subtraction
+    {
 
+        public int Sub (double x, double y)
+        {
+            return x - y;
+        }
+    }
 }
-
