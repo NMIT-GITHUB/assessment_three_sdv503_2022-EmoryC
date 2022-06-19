@@ -19,22 +19,19 @@ namespace Calculator
         Console.Writeline("Feed Me Your Maths");
         }
  
-    }
-
-    class Summation
-    {
         public int Sum (double x, double y)
         {
             return x + y;
         }
-    }
-
-    class Subtraction
-    {
-
+    
         public int Sub (double x, double y)
         {
             return x - y;
         }
-    }
+       
+        public int Multi (double x, double y)
+        {
+            return x * y;
+        }
+    
 }
