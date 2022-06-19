@@ -25,7 +25,7 @@ namespace Calculator
             Console.backgroundColour = ConsoleColor.DarkGreen;
             Console.foregroundColour = ConsoleColor.Black;
             return x + y;
-            
+            Console.Writeline(Sum);
         }
     
         public int Sub (double x, double y)
@@ -34,6 +34,7 @@ namespace Calculator
             Console.backgroundColour = ConsoleColor.DarkRed;
             Console.foregroundColour = ConsoleColor.Black;
             return x - y;
+            Console.Writeline(Sub);
 
         }
        
@@ -43,8 +44,9 @@ namespace Calculator
             Console.backgroundColour = ConsoleColor.Magenta;
             Console.foregroundColour = ConsoleColor.Black;
             return x * y;
+            Console.Writeline(Multi);
 
-        }
+        } 
 
         public int Dev (double x, double y)
         {
@@ -52,6 +54,8 @@ namespace Calculator
             Console.backgroundColour = ConsoleColor.Blue;
             Console.foregroundColour = ConsoleColor.Black;
             return x / y;
+            Console.Writeline(Dev);
+
 
         }
     
@@ -61,6 +65,7 @@ namespace Calculator
             Console.backgroundColour = ConsoleColor.Cyan;
             Console.foregroundColour = ConsoleColor.Black;
             return x ^ y;
+            Console.Writeline(Pow);
 
         }
 
@@ -70,6 +75,7 @@ namespace Calculator
             Console.backgroundColour = ConsoleColor.DarkGray;
             Console.foregroundColour = ConsoleColor.Black;
             return x % y;
+            Console.Writeline(Rem);
 
         }
 
