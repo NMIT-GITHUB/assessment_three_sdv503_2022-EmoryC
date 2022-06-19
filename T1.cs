@@ -60,12 +60,12 @@ namespace Calculator        // The container for the proceeding classes
 
         }
     
-        public int Pow (double x, double y)             // Sixth for Exponentials
-        {
+        public int Pow (double x, double y)             // Sixth for Exponentials. This one is different I have discoverd after more research.                                                    
+        {                                               // The ^ does not function as an exponent compiler like it does in other languages including English.
 
             Console.backgroundColour = ConsoleColor.Cyan;
             Console.foregroundColour = ConsoleColor.Black;
-            return x ^ y;
+            return Math.Pow(x , y);
             Console.Writeline(Pow);
 
         }
