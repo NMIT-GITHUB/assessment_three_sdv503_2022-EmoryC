@@ -80,15 +80,8 @@ namespace Calculator        // The container for the proceeding classes
 
         }
 
-    }
+    }                                                   //Was going to add a PemDas Class that can access other operators but 
+                                                        //upon further research the C# compiler follows this process already.
 
-    class PemDas
-    {
-        static int Pem(string[] args)
-        {
-            
-        }
-
-    }
-
+    
 }
