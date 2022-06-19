@@ -8,27 +8,27 @@ Not using Studio bc it is new, confuses me, and I find it unecessary since I'm s
 That beind said I never had node.js installed on this system so there will be no testing, just praying
 */
 
-using System;
+using System;       // Origin of our namespace and classes
 
-namespace Calculator
+namespace Calculator        // The container for the proceeding classes
 {
-    class CalcMath
+    class CalcMath          // Class #1
     {
-        static void Main(string[] args)
+        static void Main(string[] args)                 // First Operator, just a string to start out the process
         {
         Console.Writeline("Feed Me Your Maths");
         }
  
-        public int Sum (double x, double y)
+        public int Sum (double x, double y)             // Second Operator for Addition
         {
             
-            Console.backgroundColour = ConsoleColor.DarkGreen;
-            Console.foregroundColour = ConsoleColor.Black;
-            return x + y;
-            Console.Writeline(Sum);
+            Console.backgroundColour = ConsoleColor.DarkGreen;      //Each mathmetical operator has it's own base colour as requested
+            Console.foregroundColour = ConsoleColor.Black;          //Decided to keep the forground colour the same
+            return x + y;                                           //The return expected of the operator
+            Console.Writeline(Sum);                                 //The console method to return the answer of the operator
         }
     
-        public int Sub (double x, double y)
+        public int Sub (double x, double y)             // Third for Subtraction
         {
 
             Console.backgroundColour = ConsoleColor.DarkRed;
@@ -38,7 +38,7 @@ namespace Calculator
 
         }
        
-        public int Multi (double x, double y)
+        public int Multi (double x, double y)           // Fourth for Multiplication
         {
 
             Console.backgroundColour = ConsoleColor.Magenta;
@@ -48,7 +48,7 @@ namespace Calculator
 
         } 
 
-        public int Dev (double x, double y)
+        public int Dev (double x, double y)             //Fifth for Devision
         {
 
             Console.backgroundColour = ConsoleColor.Blue;
@@ -59,7 +59,7 @@ namespace Calculator
 
         }
     
-        public int Pow (double x, double y)
+        public int Pow (double x, double y)             // Sixth for Exponentials
         {
 
             Console.backgroundColour = ConsoleColor.Cyan;
@@ -69,7 +69,7 @@ namespace Calculator
 
         }
 
-        public int Rem (double x, double y)
+        public int Rem (double x, double y)             // Seventh for "Remainders"
         {
 
             Console.backgroundColour = ConsoleColor.DarkGray;
@@ -78,7 +78,6 @@ namespace Calculator
             Console.Writeline(Rem);
 
         }
-
 
     }
 
