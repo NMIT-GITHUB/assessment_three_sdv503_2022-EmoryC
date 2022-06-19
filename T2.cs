@@ -42,8 +42,7 @@ class Convert //Instancing the class "Convert"
                /*
                This was the only place where the code didn't hate the Console.WriteLine
                method so I presume it is correct for now...
-               I'm under the assumption that I'm still using some JS syntax in a C# environment. Given that these two languages use
-               different logical processes, I find that incredibly frustrating. While struggling to gather the inner workings of one 
+               I'm under the assumption that I'm still using some JS syntax in a C# environment. It seems decently similar however, so I'm not too concerned. 
                language I was not expecting to learn, I am then made to learn another in a quarter of the time make them interchangeable. Brilliant.
                */
     }
